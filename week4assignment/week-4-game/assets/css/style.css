@@ -1,0 +1,23 @@
+body {
+	background-image: url("../images/crystalbground.jpg")
+}
+
+.section {
+	background: #fff;
+	width: 70%;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font color: #000080;
+}
+
+header {
+	background: #fff;
+	width: 20%;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font color: #000080;
+}
