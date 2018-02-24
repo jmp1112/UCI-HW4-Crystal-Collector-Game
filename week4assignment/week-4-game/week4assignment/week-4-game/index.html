@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector!</title>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Game JS logic -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <!-- Sytle CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <h1>Crystal Collector</h1>
+    <br>
+    <!-- Instructions Div -->
+    <h2>Instructions</h2>
+    <br>
+    <div id="instructions-div">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        </p>
+
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above
+            the random number</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+    </div>
+    <br>
+    <h2>Crystals</h2>
+    <!-- Cystals Div -->
+    <div id="crystals-div">
+        <!-- <button name="red" onclick="red()">
+            <img src="assets/images/red.png">
+        </button>
+        <button name="blue" onclick="blue(0)">
+            <img src="assets/images/blue.png">
+        </button>
+        <button name="yellow">
+            <img src="assets/images/yellow.png">
+        </button>
+        <button name="green">
+            <img src="assets/images/green.png">
+        </button> -->
+    </div>
+    <br>
+    <!-- Score Div -->
+    <h2>Score</h2>
+    <br>
+    <div id="score-div">
+        <p id = "target">Target Score: </p>
+        <p id = "current">Current Score: </p>
+        <p id = "wins">Wins: </p>
+        <p id = "losses">Losses: </p>
+    </div>
+    <br>
+</body>
+
+</html>

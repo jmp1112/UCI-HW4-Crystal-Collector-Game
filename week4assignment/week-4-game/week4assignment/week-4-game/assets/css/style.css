@@ -1,0 +1,63 @@
+body {
+	background-image: url("../images/crystalbground.jpg");
+	background-repeat: repeat;
+}
+
+h1 {
+	background: #fff;
+	width: 200px;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h2 {
+	background: #fff;
+	width: 200px;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#instructions-div {
+	background: #fff;
+	width: 400px;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#score-div {
+	background: #fff;
+	width: 400px;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#crystals-div {
+	background: #fff;
+	width: 400px;
+	height: 100px;
+	opacity: .9;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.crystals-button {
+	display: inline;
+  }
+  
+  .crystal-img {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	background-color: white;
+	border: solid;
+	border-color: lightblue;
+  }
